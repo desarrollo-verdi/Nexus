@@ -414,3 +414,14 @@
 [2026-06-01T20:12:58.290Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'nexus'.
 [2026-06-01T20:13:46.210Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'undefined'.
 [2026-06-01T20:25:12.312Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'undefined' intentó ejecutar acción sin el permiso requerido.
+[2026-06-01T20:29:20.710Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'undefined'.
+[2026-06-01T20:29:39.769Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-01T20:31:56.161Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'undefined'.
+[2026-06-01T20:34:24.245Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-01T20:41:16.283Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-01T20:41:56.386Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-01T20:54:55.715Z] [RECHAZADO] [Acción: AUTH_LOGIN] Contraseña incorrecta para el usuario 'gmuria'.
+[2026-06-01T20:55:01.611Z] [RECHAZADO] [Acción: AUTH_LOGIN] Contraseña incorrecta para el usuario 'gmuria'.
+[2026-06-01T20:55:14.435Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'gmuria' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-01T20:55:53.817Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-01T21:00:03.941Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').

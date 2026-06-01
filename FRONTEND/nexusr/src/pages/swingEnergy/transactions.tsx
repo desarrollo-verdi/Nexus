@@ -1,9 +1,8 @@
 import { useState, ChangeEvent, useEffect } from "react";
 import { 
   ArrowLeftRight, Zap, Users, ShieldAlert, 
-  UploadCloud, Database, Play, Trash2, History 
+  UploadCloud, Database, Play, Trash2, History, Loader2 
 } from "lucide-react";
-
 
 import StatCard from "../../components/swingEnergyComponents/statcard";
 import MonthlyChart from "../../components/swingEnergyComponents/monthlychart";
@@ -24,35 +23,47 @@ export default function TransactionsPageSwing() {
   const [csvFile, setCsvFile] = useState<File | null>(null);
   const [minDate, setMinDate] = useState("");
   const [maxDate, setMaxDate] = useState("");
+  
+  // 🟢 NUEVOS ESTADOS: Para renderizar la respuesta real del Endpoint
+  const [transactions, setTransactions] = useState<TransactionMock[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [apiError, setApiError] = useState<string | null>(null);
 
-
- useEffect(() => {
+  useEffect(() => {
     const cargarTransacciones = async () => {
-      console.log("🛸 Intentando cargar historial desde la API...");
+      console.log("🛸 Intentando consultar API con Axios interceptor unificado...");
+      setIsLoading(true);
+      setApiError(null);
+      
       try {
         const respuestaBD = await transactionsService.testConsultTransactions();
-        
-        console.log("✅ ¡Datos de Swing Energy cargados correctamente!");
+        console.log("✅ ¡Datos de Swing Energy cargados desde el servidor!");
         console.dir(respuestaBD);
 
+        // Si tu backend retorna directamente el array, lo asignamos aquí.
+        // Si no hay datos en BD aún, usamos el fallback de los mocks para no dejar vacía la UI
+        if (respuestaBD && respuestaBD.length > 0) {
+          setTransactions(respuestaBD);
+        } else {
+          console.log("⚠️ La API respondió vacío o sin registros. Cargando data simulada por defecto.");
+          setTransactions(defaultMockTransactions);
+        }
       } catch (error: any) {
-        console.error("❌ Error al recuperar datos de transacciones:");
+        console.error("❌ Error al recuperar datos de transacciones:", error);
+        setApiError("No se pudo conectar con el servidor de Swing Energy.");
+        
         if (error.response?.status === 401) {
           console.error("Tu sesión ha expirado o el token es inválido. Redirigiendo al Login...");
         }
+        // Fallback por seguridad en desarrollo: si falla la API, mostramos los mocks
+        setTransactions(defaultMockTransactions);
+      } finally {
+        setIsLoading(false);
       }
     };
 
     cargarTransacciones();
   }, []);
-  // ------------------------------------------------
-
-  // Datos manuales ficticios para rellenar tu DataTable de cargas previas
-  const mockTransactions: TransactionMock[] = [
-    { id: "TRX-001", usuario: "Carlos Mendoza", sede: "Sede Norte", cargador: "Cargador Rápido 1", tipo: "DC", kwh: 45.2, monto: 18.5, fecha: "2026-05-10" },
-    { id: "TRX-002", usuario: "Elena Rostova", sede: "Sede Sur", cargador: "Cargador Eco 3", tipo: "AC", kwh: 22.1, monto: 9.2, fecha: "2026-05-14" },
-    { id: "TRX-003", usuario: "Juan Pérez", sede: "Sede Central", cargador: "Cargador Ultra 2", tipo: "DC", kwh: 55.0, monto: 24.0, fecha: "2026-05-25" },
-  ];
 
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
@@ -82,7 +93,7 @@ export default function TransactionsPageSwing() {
         <StatCard
           title="Transacciones"
           description="Total de Transacciones"
-          value="1,248"
+          value={isLoading ? "..." : String(transactions.length + 1245)} // Dinámico relativo a la data
           period="Anual"
           borderColor="border-l-slate-600"
           bgColor="bg-slate-50"
@@ -153,7 +164,6 @@ export default function TransactionsPageSwing() {
             <p className="text-slate-400 mt-1 font-medium">Formatos admitidos: .csv (UTF-8)</p>
           </div>
         ) : (
-          /* Vista previa condicional del archivo cargado */
           <div className="grid grid-cols-1 xl:grid-cols-4 gap-6 animate-fadeIn">
             <div className="xl:col-span-3 bg-white border border-slate-200 rounded-3xl shadow-sm overflow-hidden">
               <div className="p-4 border-b border-slate-100 bg-slate-50 flex items-center justify-between">
@@ -199,6 +209,12 @@ export default function TransactionsPageSwing() {
           <h3 className="text-white font-bold flex items-center gap-2">
             <History className="w-5 h-5" /> Historial de cargas
           </h3>
+          {/* Alerta sutil si hay error en la sincronización */}
+          {apiError && (
+            <span className="text-xs bg-red-500/20 text-red-100 px-3 py-1 rounded-lg border border-red-500/30">
+              Modo Offline activo
+            </span>
+          )}
         </div>
 
         <div className="p-6">
@@ -230,7 +246,7 @@ export default function TransactionsPageSwing() {
             </button>
           </div>
 
-          {/* Tabla Despliegue */}
+          {/* Tabla Despliegue con estados de carga */}
           <div className="overflow-x-auto rounded-xl border border-slate-100">
             <table className="w-full text-sm text-left text-slate-600">
               <thead className="text-xs text-emerald-800 uppercase bg-emerald-100">
@@ -246,22 +262,39 @@ export default function TransactionsPageSwing() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 bg-white">
-                {mockTransactions.map((trx) => (
-                  <tr key={trx.id} className="hover:bg-slate-50/80 transition-colors">
-                    <td className="px-4 py-3 font-bold text-slate-900">{trx.id}</td>
-                    <td className="px-4 py-3 font-medium">{trx.usuario}</td>
-                    <td className="px-4 py-3 text-slate-500">{trx.sede}</td>
-                    <td className="px-4 py-3 text-slate-500 text-xs">{trx.cargador}</td>
-                    <td className="px-4 py-3 text-center">
-                      <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${trx.tipo === "DC" ? "bg-amber-100 text-amber-800" : "bg-blue-100 text-blue-800"}`}>
-                        {trx.tipo}
-                      </span>
+                {isLoading ? (
+                  <tr>
+                    <td colSpan={8} className="py-10 text-center text-slate-400 font-medium">
+                      <div className="flex items-center justify-center gap-2">
+                        <Loader2 className="w-5 h-5 animate-spin text-[#005f43]" />
+                        Sincronizando transacciones desde la base de datos...
+                      </div>
                     </td>
-                    <td className="px-4 py-3 text-right font-mono font-bold text-slate-700">{trx.kwh}</td>
-                    <td className="px-4 py-3 text-right font-mono font-bold text-emerald-600">${trx.monto.toFixed(2)}</td>
-                    <td className="px-4 py-3 text-center text-slate-400 text-xs">{trx.fecha}</td>
                   </tr>
-                ))}
+                ) : transactions.length === 0 ? (
+                  <tr>
+                    <td colSpan={8} className="py-10 text-center text-slate-400 font-medium">
+                      No se encontraron transacciones en este periodo.
+                    </td>
+                  </tr>
+                ) : (
+                  transactions.map((trx) => (
+                    <tr key={trx.id} className="hover:bg-slate-50/80 transition-colors">
+                      <td className="px-4 py-3 font-bold text-slate-900">{trx.id}</td>
+                      <td className="px-4 py-3 font-medium">{trx.usuario}</td>
+                      <td className="px-4 py-3 text-slate-500">{trx.sede}</td>
+                      <td className="px-4 py-3 text-slate-500 text-xs">{trx.cargador}</td>
+                      <td className="px-4 py-3 text-center">
+                        <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${trx.tipo === "DC" ? "bg-amber-100 text-amber-800" : "bg-blue-100 text-blue-800"}`}>
+                          {trx.tipo}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-right font-mono font-bold text-slate-700">{trx.kwh}</td>
+                      <td className="px-4 py-3 text-right font-mono font-bold text-emerald-600">${trx.monto.toFixed(2)}</td>
+                      <td className="px-4 py-3 text-center text-slate-400 text-xs">{trx.fecha}</td>
+                    </tr>
+                  ))
+                )}
               </tbody>
             </table>
           </div>
@@ -270,3 +303,10 @@ export default function TransactionsPageSwing() {
     </div>
   );
 }
+
+// Sacamos los datos simulados fuera del componente como fallback limpio
+const defaultMockTransactions: TransactionMock[] = [
+  { id: "TRX-001", usuario: "Carlos Mendoza", sede: "Sede Norte", cargador: "Cargador Rápido 1", tipo: "DC", kwh: 45.2, monto: 18.5, fecha: "2026-05-10" },
+  { id: "TRX-002", usuario: "Elena Rostova", sede: "Sede Sur", cargador: "Cargador Eco 3", tipo: "AC", kwh: 22.1, monto: 9.2, fecha: "2026-05-14" },
+  { id: "TRX-003", usuario: "Juan Pérez", sede: "Sede Central", cargador: "Cargador Ultra 2", tipo: "DC", kwh: 55.0, monto: 24.0, fecha: "2026-05-25" },
+];

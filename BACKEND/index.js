@@ -92,7 +92,7 @@ app.post('/login', (req, res) => {
     }
 
     if (user === process.env.API_USER && pass === process.env.API_PASS) {
-        const token = jwt.sign({ user }, process.env.JWT_SECRET, { expiresIn: '2h' });
+        const token = jwt.sign({ user }, process.env.JWT_SECRET, { expiresIn: '8h' });
         registrarLog('OK', 'LOGIN_MASTER', `Usuario M-Key '${user}' autenticado exitosamente.`);
         return res.json({ success: true, token: token });
     }
