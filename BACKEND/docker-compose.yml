@@ -1,0 +1,70 @@
+
+services:
+ # ----- BASE DE DATOS --------
+  myDB:
+    image: postgres:15.3
+    container_name: nexus-database
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=ADMINISTRADOR
+      - POSTGRES_PASSWORD=S1hhh
+      - POSTGRES_DB=nexusbd
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    networks:
+      - verdi-net
+
+      # --- BACKEND (EXPRESS) ---
+  my-api:
+    build: .
+    container_name: api-nexus
+    restart: always
+    depends_on:
+      - myDB
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./api_logs:/usr/src/app/logs
+    networks:
+      - verdi-net
+
+  # ------ ADMINISTRACIÓN BD ---------
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadminnexus
+    restart: always
+    depends_on:
+      - myDB
+    ports:
+      - "8080:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=desarrollo@appverdi.com
+      - PGADMIN_DEFAULT_PASSWORD=Shhh
+    volumes:
+      - ./pgadmin_data:/var/lib/pgadmin
+    networks:
+      - verdi-net
+
+      # --- FRONTEND (REACT + VITE + NGINX) ---
+  my-frontend:
+    build:
+      context: ../FRONTEND/nexusr # Ruta hacia donde está el Dockerfile del Front
+      args:
+          - VITE_API_BASE_URL=http://localhost:3000
+          - VITE_LOGIN_MASTER_KEY=Clahhhhh
+    container_name: my-frontend-app
+    restart: always
+    ports:
+      - "1500:1500" 
+    depends_on:
+      - my-api
+    networks:
+      - verdi-net
+
+networks:
+  verdi-net:
+    driver: bridge

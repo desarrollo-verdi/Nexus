@@ -1,0 +1,409 @@
+[2026-05-18T20:02:19.877Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-18T20:03:18.917Z] [INFO-OK] [Acción: consultCurrencyRate] Procedimiento SP_SW_API_CONSULT_CURRENCY_RATE ejecutado con éxito.
+[2026-05-18T20:03:31.804Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected token } in JSON at position 23
+[2026-05-19T02:49:40.952Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-19T02:49:41.000Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento SP_SW_API_INSERT_CURRENCY_RATE ejecutado con éxito.
+[2026-05-19T20:16:54.949Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-19T20:21:08.017Z] [RECHAZADO] [Acción: consultHeadquarters] Acceso denegado: Token inválido o expirado.
+[2026-05-19T20:21:15.947Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-19T20:21:42.086Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:21:51.397Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:21:57.995Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:22:20.485Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:24:40.289Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:24:42.416Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:24:44.093Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:24:45.687Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:24:54.511Z] [ERROR] [Acción: consultHeadquarters] structure of query does not match function result type
+[2026-05-19T20:41:30.855Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-05-19T20:54:53.330Z] [RECHAZADO] [Acción: consultOrganization] Acceso denegado: Token inválido o expirado.
+[2026-05-19T20:55:20.219Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-19T20:55:32.894Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:55:38.989Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:56:43.749Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:57:09.405Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:57:49.610Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:58:03.400Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:58:51.157Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:58:58.733Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-05-19T20:59:03.712Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:59:11.874Z] [ERROR] [Acción: consultOrganization] syntax error at or near "("
+[2026-05-19T20:59:52.129Z] [INFO-OK] [Acción: consultOrganization] Procedimiento FN_G_API_CONSULT_ORGANIZATION ejecutado con éxito por GET.
+[2026-05-19T21:04:53.009Z] [INFO-OK] [Acción: consultPaymentMode] Procedimiento FN_G_API_CONSULT_PAYMENT_MODE ejecutado con éxito por GET.
+[2026-05-19T21:09:28.473Z] [INFO-OK] [Acción: consultCurrencyType] Procedimiento FN_G_API_CONSULT_CURRENCY_TYPE ejecutado con éxito por GET.
+[2026-05-19T21:14:06.764Z] [INFO-OK] [Acción: consultCompany] Procedimiento FN_N_API_CONSULT_COMPANY ejecutado con éxito por GET.
+[2026-05-19T21:17:24.317Z] [INFO-OK] [Acción: consultRole] Procedimiento FN_N_API_CONSULT_ROLE ejecutado con éxito por GET.
+[2026-05-19T21:39:17.864Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por GET.
+[2026-05-19T21:39:57.672Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-05-19T21:40:03.448Z] [INFO-OK] [Acción: consultOrganization] Procedimiento FN_G_API_CONSULT_ORGANIZATION ejecutado con éxito por GET.
+[2026-05-19T21:40:08.575Z] [INFO-OK] [Acción: consultPaymentMode] Procedimiento FN_G_API_CONSULT_PAYMENT_MODE ejecutado con éxito por GET.
+[2026-05-19T21:50:08.116Z] [INFO-OK] [Acción: consultOrganization] Procedimiento FN_G_API_CONSULT_ORGANIZATION ejecutado con éxito por GET.
+[2026-05-20T05:00:00.976Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T05:00:01.022Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento SP_SW_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-20T14:17:08.603Z] [RECHAZADO] [Acción: consultStatusUnit] Acceso denegado: Token inválido o expirado.
+[2026-05-20T14:17:14.099Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T14:17:27.508Z] [INFO-OK] [Acción: consultStatusUnit] Procedimiento FN_G_API_CONSULT_STATUS_UNIT ejecutado con éxito por GET.
+[2026-05-20T14:44:15.148Z] [RECHAZADO] [Acción: insertCurrencyRate] Acceso denegado: Token inválido o expirado.
+[2026-05-20T14:44:19.752Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T14:44:35.269Z] [ERROR] [Acción: insertCurrencyRate] El parámetro 'p_DATE_BCV' es obligatorio.
+[2026-05-20T14:45:04.578Z] [ERROR] [Acción: insertUnit] Error inesperado al insertar la unidad: duplicate key value violates unique constraint "v002t_unit_plate_key"
+[2026-05-20T14:45:16.379Z] [INFO-OK] [Acción: insertUnit] Procedimiento FN_V_API_INSERT_UNIT ejecutado con éxito por POST.
+[2026-05-20T14:48:55.405Z] [ERROR] [Acción: insertUnit] Error inesperado al insertar la unidad: duplicate key value violates unique constraint "v002t_unit_plate_key"
+[2026-05-20T14:51:25.522Z] [INFO-OK] [Acción: insertUnit] Procedimiento FN_V_API_INSERT_UNIT ejecutado con éxito por POST.
+[2026-05-20T14:55:45.306Z] [INFO-OK] [Acción: insertUnit] Procedimiento FN_V_API_INSERT_UNIT ejecutado con éxito por POST.
+[2026-05-20T14:55:47.933Z] [INFO-OK] [Acción: insertUnit] Procedimiento FN_V_API_INSERT_UNIT ejecutado con éxito por POST.
+[2026-05-20T14:58:37.723Z] [ERROR] [Acción: insertUnit] Error interno en la base de datos: Error: La unidad con el nombre PRUEBA de edicion o placa XXXXXXa ya está registrada.
+[2026-05-20T14:59:00.425Z] [ERROR] [Acción: insertUnit] Error interno en la base de datos: Error: La unidad con el nombre PRUEBA o placa XXXXXX ya está registrada.
+[2026-05-20T14:59:13.722Z] [INFO-OK] [Acción: insertUnit] Procedimiento FN_V_API_INSERT_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:05:17.802Z] [ERROR] [Acción: insertUnit] Error interno en la base de datos: Error: La unidad con el nombre PRUEBAT o placa XXXXXXB ya está registrada.
+[2026-05-20T15:05:49.449Z] [ERROR] [Acción: editUnit] Error interno al actualizar la unidad: column "id" does not exist
+[2026-05-20T15:07:21.749Z] [ERROR] [Acción: editUnit] Error interno al actualizar la unidad: column "id" does not exist
+[2026-05-20T15:07:44.930Z] [ERROR] [Acción: editUnit] Error interno al actualizar la unidad: column "id" does not exist
+[2026-05-20T15:10:46.759Z] [INFO-OK] [Acción: editUnit] Procedimiento FN_V_API_UPDATE_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:10:56.705Z] [INFO-OK] [Acción: editUnit] Procedimiento FN_V_API_UPDATE_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:25:56.545Z] [ERROR] [Acción: insertUnit] Error interno en la base de datos: Error: La unidad con el nombre PRUEBAT o placa XXXXXXB ya está registrada.
+[2026-05-20T15:26:04.172Z] [INFO-OK] [Acción: insertUnit] Procedimiento FN_V_API_SAVE_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:26:38.549Z] [ERROR] [Acción: insertUnit] Error interno en la base de datos: Error: La unidad con el nombre PRUEBAT o placa XXXXXXB ya está registrada.
+[2026-05-20T15:35:32.273Z] [RECHAZADO] [Acción: consultUnit] Acceso denegado: Token inválido o expirado.
+[2026-05-20T15:35:37.214Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T15:35:58.718Z] [ERROR] [Acción: consultUnit] function fn_v_api_consult_unit() does not exist
+[2026-05-20T15:37:01.522Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por GET.
+[2026-05-20T15:46:59.390Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por GET.
+[2026-05-20T15:51:57.371Z] [ERROR] [Acción: consultUnit] function fn_v_api_consult_unit() is not unique
+[2026-05-20T15:52:34.514Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por GET.
+[2026-05-20T15:53:00.485Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por GET.
+[2026-05-20T15:53:11.697Z] [RECHAZADO] [Acción: consultUnit] Método HTTP incorrecto. Esperado: GET, Recibido: POST
+[2026-05-20T15:53:52.123Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:54:02.906Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:54:07.935Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected token } in JSON at position 29
+[2026-05-20T15:54:13.565Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:54:29.546Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-20T15:54:39.701Z] [INFO-OK] [Acción: consultStatusUnit] Procedimiento FN_G_API_CONSULT_STATUS_UNIT ejecutado con éxito por GET.
+[2026-05-20T16:15:39.964Z] [ERROR] [Acción: consultDriver] structure of query does not match function result type
+[2026-05-20T16:20:23.873Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T16:32:40.831Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T16:32:46.389Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected token } in JSON at position 29
+[2026-05-20T16:32:51.944Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T16:32:57.288Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T17:13:16.249Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected token } in JSON at position 387
+[2026-05-20T17:13:23.156Z] [RECHAZADO] [Acción: insertDriver] Acceso denegado: Token inválido o expirado.
+[2026-05-20T17:16:10.139Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T17:27:04.923Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T17:27:19.537Z] [ERROR] [Acción: insertDriver] El parámetro 'p_ID_USER' es obligatorio.
+[2026-05-20T17:28:14.905Z] [ERROR] [Acción: insertDriver] Error: No se encontró ningún conductor con el número de cédula 27451617 y letra V para editar.
+[2026-05-20T17:28:24.221Z] [INFO-OK] [Acción: insertDriver] Procedimiento FN_V_API_SAVE_DRIVER ejecutado con éxito por POST.
+[2026-05-20T17:28:55.175Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T17:29:37.884Z] [INFO-OK] [Acción: insertDriver] Procedimiento FN_V_API_SAVE_DRIVER ejecutado con éxito por POST.
+[2026-05-20T17:29:45.607Z] [INFO-OK] [Acción: insertDriver] Procedimiento FN_V_API_SAVE_DRIVER ejecutado con éxito por POST.
+[2026-05-20T20:02:01.054Z] [RECHAZADO] [Acción: insertDriver] Acceso denegado: Token inválido o expirado.
+[2026-05-20T20:02:05.987Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T20:02:18.904Z] [INFO-OK] [Acción: insertDriver] Procedimiento FN_V_API_SAVE_DRIVER ejecutado con éxito por POST.
+[2026-05-20T20:03:07.342Z] [RECHAZADO] [Acción: consultDriver] Acceso denegado: Token inválido o expirado.
+[2026-05-20T20:03:14.896Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T20:03:24.942Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-20T20:03:54.976Z] [RECHAZADO] [Acción: consultCurrencyRate] Acceso denegado: Token inválido o expirado.
+[2026-05-20T20:04:01.871Z] [INFO-OK] [Acción: consultCurrencyRate] Procedimiento SP_SW_API_CONSULT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-20T20:04:14.407Z] [INFO-OK] [Acción: consultCurrencyRate] Procedimiento SP_SW_API_CONSULT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-20T20:04:23.794Z] [INFO-OK] [Acción: consultCurrencyRate] Procedimiento SP_SW_API_CONSULT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-20T20:04:36.163Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-05-20T20:10:29.020Z] [RECHAZADO] [Acción: consultUnit] Acceso denegado: Token inválido o expirado.
+[2026-05-20T20:10:35.217Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T20:10:46.499Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-20T20:11:01.412Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-20T20:11:07.036Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-20T20:25:04.704Z] [RECHAZADO] [Acción: LOGIN] Intento de login sin Master Key válida.
+[2026-05-20T20:25:25.749Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'GREGORY'. Credenciales incorrectas.
+[2026-05-20T20:25:39.469Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T20:26:20.630Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-05-20T20:26:24.351Z] [RECHAZADO] [Acción: consultOrganization] Acceso denegado: Token inválido o expirado.
+[2026-05-20T20:44:28.064Z] [RECHAZADO] [Acción: consultBrands] Acceso denegado: Token inválido o expirado.
+[2026-05-20T20:44:36.007Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T20:44:48.143Z] [INFO-OK] [Acción: consultBrands] Procedimiento FN_I_API_CONSULT_BRANDS ejecutado con éxito por GET.
+[2026-05-20T20:46:02.048Z] [ERROR] [Acción: consultBrands] structure of query does not match function result type
+[2026-05-20T20:46:36.086Z] [ERROR] [Acción: consultBrands] structure of query does not match function result type
+[2026-05-20T20:46:37.283Z] [ERROR] [Acción: consultBrands] structure of query does not match function result type
+[2026-05-20T20:48:13.229Z] [INFO-OK] [Acción: consultBrands] Procedimiento FN_I_API_CONSULT_BRANDS ejecutado con éxito por GET.
+[2026-05-20T20:48:59.848Z] [INFO-OK] [Acción: consultBrands] Procedimiento FN_I_API_CONSULT_BRANDS ejecutado con éxito por GET.
+[2026-05-20T22:08:03.606Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected token : in JSON at position 156
+[2026-05-20T22:08:21.591Z] [RECHAZADO] [Acción: insertAllocation] Acceso denegado: Token inválido o expirado.
+[2026-05-20T22:08:31.978Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-20T22:08:47.274Z] [RECHAZADO] [Acción: insertAllocation] Acceso denegado: Token inválido o expirado.
+[2026-05-20T22:08:50.417Z] [RECHAZADO] [Acción: insertAllocation] Acceso denegado: Token inválido o expirado.
+[2026-05-20T22:09:02.803Z] [ERROR] [Acción: insertAllocation] El parámetro ' p_ACTION' es obligatorio.
+[2026-05-20T22:12:01.291Z] [ERROR] [Acción: insertAllocation] Error: No se encontró ninguna asignación activa para la unidad 1 y conductor 1 para proceder a editar.
+[2026-05-20T22:12:08.582Z] [ERROR] [Acción: insertAllocation] insert or update on table "v008t_allocation_unit" violates foreign key constraint "v008t_allocation_unit_id_unit_fkey"
+[2026-05-21T06:51:33.316Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-21T06:51:33.458Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento SP_SW_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-21T13:54:27.265Z] [RECHAZADO] [Acción: insertAllocation] Acceso denegado: Token inválido o expirado.
+[2026-05-21T13:54:33.590Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-21T13:54:55.163Z] [ERROR] [Acción: insertAllocation] insert or update on table "v008t_allocation_unit" violates foreign key constraint "v008t_allocation_unit_id_unit_fkey"
+[2026-05-21T14:02:31.625Z] [ERROR] [Acción: insertAllocation] El parámetro 'p_ID_USER' es obligatorio.
+[2026-05-21T14:04:04.925Z] [INFO-OK] [Acción: insertAllocation] Procedimiento FN_V_API_SAVE_ALLOCATION ejecutado con éxito por POST.
+[2026-05-21T14:05:23.499Z] [INFO-OK] [Acción: insertAllocation] Procedimiento FN_V_API_SAVE_ALLOCATION ejecutado con éxito por POST.
+[2026-05-21T14:11:23.542Z] [INFO-OK] [Acción: insertAllocation] Procedimiento FN_V_API_SAVE_ALLOCATION ejecutado con éxito por POST.
+[2026-05-21T14:54:02.745Z] [INFO-OK] [Acción: consultAllocation] Procedimiento FN_V_API_CONSULT_ALLOCATION ejecutado con éxito por POST.
+[2026-05-21T14:55:50.282Z] [INFO-OK] [Acción: consultAllocation] Procedimiento FN_V_API_CONSULT_ALLOCATION ejecutado con éxito por POST.
+[2026-05-22T06:48:24.501Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-22T14:22:04.430Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected token } in JSON at position 247
+[2026-05-22T14:23:59.794Z] [RECHAZADO] [Acción: insertSantions] Acceso denegado: Token inválido o expirado.
+[2026-05-22T14:24:05.263Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-22T14:24:20.504Z] [ERROR] [Acción: insertSantions] El parámetro 'p_DATE_INITIAL' es obligatorio.
+[2026-05-22T14:24:35.361Z] [ERROR] [Acción: insertSantions] query returned no rows
+[2026-05-22T14:25:23.385Z] [ERROR] [Acción: insertSantions] query returned no rows
+[2026-05-22T14:27:48.518Z] [ERROR] [Acción: insertSantions] query returned no rows
+[2026-05-22T14:30:13.476Z] [ERROR] [Acción: insertSantions] Error: No se encontró ninguna sanción activa para el conductor 22 y tipo de sanción 5 para proceder a editar.
+[2026-05-22T14:30:22.702Z] [INFO-OK] [Acción: insertSantions] Procedimiento FN_V_API_SAVE_SANTIONS ejecutado con éxito por POST.
+[2026-05-22T14:30:39.002Z] [INFO-OK] [Acción: insertSantions] Procedimiento FN_V_API_SAVE_SANTIONS ejecutado con éxito por POST.
+[2026-05-22T14:33:47.860Z] [ERROR] [Acción: insertSantions] Error: La sanción para este conductor ya existe.
+[2026-05-22T15:13:49.756Z] [ERROR] [Acción: insertSantions] query returned no rows
+[2026-05-22T15:18:04.292Z] [ERROR] [Acción: insertSantions] Error: No se encontró ninguna sanción activa para el conductor 23 y tipo de sanción 6 para proceder a editar.
+[2026-05-22T15:19:27.661Z] [ERROR] [Acción: insertSantions] Error: Acción no válida (3). Use 0 para agregar o 1 para editar.
+[2026-05-22T15:39:10.001Z] [ERROR] [Acción: consultSantions] structure of query does not match function result type
+[2026-05-22T15:39:14.757Z] [ERROR] [Acción: consultSantions] structure of query does not match function result type
+[2026-05-22T15:41:29.045Z] [INFO-OK] [Acción: consultSantions] Procedimiento FN_V_API_CONSULT_SANTION ejecutado con éxito por POST.
+[2026-05-22T15:42:26.630Z] [INFO-OK] [Acción: consultSantions] Procedimiento FN_V_API_CONSULT_SANTION ejecutado con éxito por POST.
+[2026-05-22T15:42:30.829Z] [INFO-OK] [Acción: consultSantions] Procedimiento FN_V_API_CONSULT_SANTION ejecutado con éxito por POST.
+[2026-05-22T15:42:49.031Z] [INFO-OK] [Acción: consultSantions] Procedimiento FN_V_API_CONSULT_SANTION ejecutado con éxito por POST.
+[2026-05-22T15:43:38.500Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected token } in JSON at position 55
+[2026-05-22T15:43:43.994Z] [INFO-OK] [Acción: consultSantions] Procedimiento FN_V_API_CONSULT_SANTION ejecutado con éxito por POST.
+[2026-05-22T15:43:49.851Z] [INFO-OK] [Acción: consultSantions] Procedimiento FN_V_API_CONSULT_SANTION ejecutado con éxito por POST.
+[2026-05-22T15:43:54.514Z] [INFO-OK] [Acción: consultSantions] Procedimiento FN_V_API_CONSULT_SANTION ejecutado con éxito por POST.
+[2026-05-22T16:33:02.574Z] [RECHAZADO] [Acción: insertSupportChat] Acceso denegado: Token inválido o expirado.
+[2026-05-22T16:37:41.742Z] [RECHAZADO] [Acción: insertSupportChat] Acceso denegado: Token inválido o expirado.
+[2026-05-22T16:37:46.650Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-22T16:37:58.580Z] [ERROR] [Acción: insertSupportChat] Error: No se encontró ningún ticket de soporte activo del cliente para proceder a editar.
+[2026-05-22T16:38:06.501Z] [INFO-OK] [Acción: insertSupportChat] Procedimiento FN_V_API_SAVE_SUPPORT_CHAT ejecutado con éxito por POST.
+[2026-05-22T16:54:35.242Z] [ERROR] [Acción: consultSupportChat] El parámetro 'p_END_DATE' es obligatorio.
+[2026-05-22T16:55:28.260Z] [ERROR] [Acción: consultSupportChat] structure of query does not match function result type
+[2026-05-22T16:57:36.374Z] [ERROR] [Acción: consultSupportChat] structure of query does not match function result type
+[2026-05-22T16:57:38.120Z] [ERROR] [Acción: consultSupportChat] structure of query does not match function result type
+[2026-05-22T17:00:35.014Z] [INFO-OK] [Acción: consultSupportChat] Procedimiento FN_V_API_CONSULT_SUPPORT_CHAT ejecutado con éxito por POST.
+[2026-05-22T17:05:59.996Z] [RECHAZADO] [Acción: consultModeDriver] Acceso denegado: Token inválido o expirado.
+[2026-05-22T17:06:05.912Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-22T17:06:17.436Z] [RECHAZADO] [Acción: consultModeDriver] Acceso denegado: Token inválido o expirado.
+[2026-05-22T17:06:19.647Z] [RECHAZADO] [Acción: consultModeDriver] Acceso denegado: Token inválido o expirado.
+[2026-05-22T17:06:35.753Z] [INFO-OK] [Acción: consultModeDriver] Procedimiento FN_V_API_CONSULT_MODE_DRIVER ejecutado con éxito por GET.
+[2026-05-22T17:09:53.952Z] [ERROR] [Acción: consultSantionsType] function fn_v_api_consult_santions_type() does not exist
+[2026-05-22T17:10:25.256Z] [ERROR] [Acción: consultSantionsType] missing FROM-clause entry for table "b"
+[2026-05-22T17:10:51.289Z] [INFO-OK] [Acción: consultSantionsType] Procedimiento FN_V_API_CONSULT_SANTIONS_TYPE ejecutado con éxito por GET.
+[2026-05-22T17:17:52.679Z] [ERROR] [Acción: consultServiceTypeIncome] missing FROM-clause entry for table "b"
+[2026-05-22T17:18:22.504Z] [INFO-OK] [Acción: consultServiceTypeIncome] Procedimiento FN_V_API_CONSULT_SERVICE_TYPE_INCOME ejecutado con éxito por GET.
+[2026-05-22T17:21:57.607Z] [INFO-OK] [Acción: consultServiceSubtypeIncome] Procedimiento FN_V_API_CONSULT_SERVICE_SUBTYPE_INCOME ejecutado con éxito por GET.
+[2026-05-22T17:24:12.909Z] [INFO-OK] [Acción: consultExpensesType] Procedimiento FN_V_API_CONSULT_EXPENSES_TYPE ejecutado con éxito por GET.
+[2026-05-22T17:26:46.749Z] [ERROR] [Acción: consultSupportRequest] structure of query does not match function result type
+[2026-05-22T17:28:05.327Z] [INFO-OK] [Acción: consultSupportRequest] Procedimiento FN_V_API_CONSULT_SUPPORT_REQUEST ejecutado con éxito por GET.
+[2026-05-22T17:30:56.886Z] [ERROR] [Acción: consultSupportMessage] structure of query does not match function result type
+[2026-05-22T17:31:30.867Z] [INFO-OK] [Acción: consultSupportMessage] Procedimiento FN_V_API_CONSULT_SUPPORT_MESSAGE ejecutado con éxito por GET.
+[2026-05-22T17:35:42.252Z] [INFO-OK] [Acción: consultSupportStatus] Procedimiento FN_V_API_CONSULT_SUPPORT_STATUS ejecutado con éxito por GET.
+[2026-05-22T18:16:06.909Z] [ERROR] [Acción: insertExpense] El parámetro 'p_ID_EXPENSES' es obligatorio.
+[2026-05-22T18:17:51.542Z] [ERROR] [Acción: insertExpense] El parámetro 'p_ID_CURRENCY_TYPE' es obligatorio.
+[2026-05-22T18:18:15.567Z] [ERROR] [Acción: insertExpense] El parámetro 'p_ID_EXPENSES_TYPE' es obligatorio.
+[2026-05-22T18:18:22.998Z] [INFO-OK] [Acción: insertExpense] Procedimiento FN_V_API_SAVE_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T18:18:51.634Z] [INFO-OK] [Acción: insertExpense] Procedimiento FN_V_API_SAVE_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T18:56:12.692Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-22T18:56:12.745Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento SP_SW_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-22T18:56:12.748Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento SP_SW_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-22T18:56:12.751Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento SP_SW_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-22T21:31:39.615Z] [RECHAZADO] [Acción: consultExpense] Acceso denegado: Token inválido o expirado.
+[2026-05-22T21:31:44.196Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-22T21:34:13.446Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:35:35.519Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:35:41.232Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:35:46.124Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:35:55.055Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:36:06.804Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:36:22.425Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:36:28.725Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:36:32.254Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:36:35.688Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:38:00.022Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:38:43.201Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-22T21:38:54.676Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-25T13:44:05.663Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-25T13:44:05.968Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento SP_SW_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-25T14:49:03.987Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-25T14:49:54.658Z] [ERROR] [Acción: consultChargers] function sp_sw_api_consult_chargers(bigint, bigint, bigint) does not exist
+[2026-05-25T14:50:26.382Z] [ERROR] [Acción: consultChargers] structure of query does not match function result type
+[2026-05-25T14:51:58.442Z] [INFO-OK] [Acción: consultChargers] Procedimiento F_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T14:52:22.841Z] [INFO-OK] [Acción: consultChargers] Procedimiento F_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T14:54:24.912Z] [INFO-OK] [Acción: consultChargers] Procedimiento FN_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T14:56:32.458Z] [RECHAZADO] [Acción: consultCurrencyRate] Acceso denegado: Token inválido o expirado.
+[2026-05-25T14:56:36.487Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-25T14:56:48.731Z] [ERROR] [Acción: consultCurrencyRate] function fn_s_api_consult_currency_rate(date) does not exist
+[2026-05-25T14:57:11.895Z] [INFO-OK] [Acción: consultCurrencyRate] Procedimiento FN_G_API_CONSULT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-25T15:02:17.653Z] [INFO-OK] [Acción: consultChargers] Procedimiento FN_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T15:02:47.574Z] [INFO-OK] [Acción: consultChargers] Procedimiento FN_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T15:03:25.307Z] [INFO-OK] [Acción: consultChargers] Procedimiento FN_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T15:04:25.603Z] [ERROR] [Acción: consultChargers] invalid input syntax for type bigint: "AEROPUERTO MAIQUETÍA"
+[2026-05-25T15:04:33.179Z] [INFO-OK] [Acción: consultChargers] Procedimiento FN_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T15:04:40.290Z] [INFO-OK] [Acción: consultChargers] Procedimiento FN_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T15:05:22.391Z] [INFO-OK] [Acción: consultChargers] Procedimiento FN_S_API_CONSULT_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T16:06:48.689Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-25T16:22:29.161Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected number in JSON at position 48
+[2026-05-25T16:23:16.897Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected number in JSON at position 33
+[2026-05-25T16:23:18.701Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected number in JSON at position 33
+[2026-05-25T16:24:52.700Z] [CRÍTICO] [Acción: N/A] JSON Mal Formateado enviado por el cliente. Detalle: Unexpected number in JSON at position 48
+[2026-05-25T16:25:09.534Z] [RECHAZADO] [Acción: insertChargerSW] Acceso denegado: Token inválido o expirado.
+[2026-05-25T16:25:16.689Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-25T16:25:30.886Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_charger(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:26:05.428Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_charger(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:28:00.759Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_charger(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:29:18.087Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_charger(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:30:29.235Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_charger(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:31:38.595Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_charger(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:32:27.148Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_charger(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:33:17.253Z] [ERROR] [Acción: insertChargerSW] function fn_s_api_save_chargers(integer, bigint, character varying, bigint, bigint) does not exist
+[2026-05-25T16:35:44.830Z] [ERROR] [Acción: insertChargerSW] column reference "id_charger" is ambiguous
+[2026-05-25T16:36:40.863Z] [ERROR] [Acción: insertChargerSW] column reference "id_charger" is ambiguous
+[2026-05-25T16:38:16.328Z] [ERROR] [Acción: insertChargerSW] structure of query does not match function result type
+[2026-05-25T16:40:54.097Z] [INFO-OK] [Acción: insertChargerSW] Procedimiento FN_S_API_SAVE_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T16:41:09.180Z] [INFO-OK] [Acción: insertChargerSW] Procedimiento FN_S_API_SAVE_CHARGERS ejecutado con éxito por POST.
+[2026-05-25T16:41:19.018Z] [ERROR] [Acción: insertChargerSW] Error de Edición: El cargador con serial 110 no existe en el sistema.
+[2026-05-25T17:12:39.398Z] [RECHAZADO] [Acción: updateLoadControl] Acceso denegado: Token inválido o expirado.
+[2026-05-25T17:53:14.298Z] [RECHAZADO] [Acción: consultUnit] Acceso denegado: Token inválido o expirado.
+[2026-05-25T17:53:19.207Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-25T17:53:30.885Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito por POST.
+[2026-05-25T17:54:03.923Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito por POST.
+[2026-05-25T17:54:19.380Z] [RECHAZADO] [Acción: updateLoadControl] Acceso denegado: Token inválido o expirado.
+[2026-05-25T17:54:28.024Z] [ERROR] [Acción: updateLoadControl] El parámetro ' p_id_load_control' es obligatorio.
+[2026-05-25T17:54:45.159Z] [INFO-OK] [Acción: updateLoadControl] Procedimiento FN_V_API_UPDATE_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-25T17:58:58.349Z] [ERROR] [Acción: updateLoadControl] El parámetro 'p_id_load_control' es obligatorio.
+[2026-05-25T17:59:04.249Z] [INFO-OK] [Acción: updateLoadControl] Procedimiento FN_V_API_UPDATE_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-25T20:27:55.393Z] [RECHAZADO] [Acción: consultLoadControl] Acceso denegado: Token inválido o expirado.
+[2026-05-25T20:28:15.648Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-25T20:28:32.927Z] [ERROR] [Acción: consultLoadControl] structure of query does not match function result type
+[2026-05-25T20:31:33.787Z] [ERROR] [Acción: consultLoadControl] structure of query does not match function result type
+[2026-05-25T20:35:30.125Z] [INFO-OK] [Acción: consultLoadControl] Procedimiento FN_V_API_CONSULT_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-25T20:35:54.767Z] [INFO-OK] [Acción: consultLoadControl] Procedimiento FN_V_API_CONSULT_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-25T20:36:07.687Z] [INFO-OK] [Acción: consultLoadControl] Procedimiento FN_V_API_CONSULT_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-25T20:36:15.233Z] [INFO-OK] [Acción: consultLoadControl] Procedimiento FN_V_API_CONSULT_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-25T20:37:00.032Z] [INFO-OK] [Acción: consultLoadControl] Procedimiento FN_V_API_CONSULT_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-25T20:37:04.062Z] [INFO-OK] [Acción: consultLoadControl] Procedimiento FN_V_API_CONSULT_LOAD_CONTROL ejecutado con éxito por POST.
+[2026-05-26T13:34:36.452Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-26T13:34:36.504Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-26T14:11:06.040Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-26T22:00:36.492Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-26T22:00:52.906Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-26T22:02:11.580Z] [INFO-OK] [Acción: consultExpenses] Procedimiento FN_V_API_CONSULT_EXPENSES ejecutado con éxito por POST.
+[2026-05-27T13:51:29.808Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-27T13:51:29.901Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-27T14:01:19.271Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-27T14:01:19.325Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-28T06:54:19.424Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-28T06:54:19.548Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-29T08:09:54.423Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T10:48:56.955Z] [RECHAZADO] [Acción: insertCurrencyRate] Acceso denegado: Token inválido o expirado.
+[2026-05-29T10:48:56.991Z] [RECHAZADO] [Acción: insertCurrencyRate] Acceso denegado: Token inválido o expirado.
+[2026-05-29T10:48:57.018Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T10:48:57.034Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T10:48:57.048Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T10:48:57.269Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-29T13:27:46.065Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T13:27:46.153Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-29T13:27:46.164Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-29T13:27:46.169Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-05-29T15:14:04.505Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T15:14:30.594Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T15:27:25.978Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:27:25.982Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:29:49.836Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:35:20.468Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:35:34.645Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:36:00.345Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:42:12.821Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:43:11.866Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T15:48:32.073Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T15:48:32.156Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:02:55.741Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:22:54.362Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:22:54.365Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:23:03.778Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T16:23:03.782Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T16:23:14.110Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:23:14.113Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:23:24.032Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T16:23:24.036Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T16:23:59.173Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:23:59.176Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:23:59.248Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T16:23:59.251Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T16:25:05.656Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:25:05.658Z] [RECHAZADO] [Acción: LOGIN] Intento fallido con usuario: 'nexus'. Credenciales incorrectas.
+[2026-05-29T16:26:00.664Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T16:26:00.668Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T16:26:25.202Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:26:25.204Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:26:33.340Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:26:33.343Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:28:17.949Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:28:19.902Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:28:23.873Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:29:25.640Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:29:34.601Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T16:30:13.641Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T17:27:26.241Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T17:29:22.143Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-05-29T18:04:59.418Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token no proporcionado.
+[2026-05-29T18:44:04.521Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-05-29T20:28:29.425Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-05-29T20:29:33.582Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-05-29T20:48:32.200Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-05-29T20:48:34.451Z] [OK] [Acción: LOGIN] Usuario 'nexus' autenticado exitosamente. Token generado.
+[2026-06-01T14:21:01.829Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-06-01T14:21:23.554Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-01T14:21:23.622Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-06-01T14:22:55.780Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito por POST.
+[2026-06-01T14:24:13.829Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:28:35.351Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:29:55.284Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:30:46.248Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:30:51.080Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:31:04.667Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:31:07.385Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:31:55.729Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:32:28.327Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:32:28.564Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:32:28.781Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:32:30.777Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:32:33.609Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:42:45.339Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T14:43:35.588Z] [RECHAZADO] [Acción: consultOrganization] Acceso denegado: Token inválido o expirado.
+[2026-06-01T14:43:41.328Z] [INFO-OK] [Acción: consultOrganization] Procedimiento FN_G_API_CONSULT_ORGANIZATION ejecutado con éxito por GET.
+[2026-06-01T14:44:06.589Z] [RECHAZADO] [Acción: AUTH_LOGIN] Contraseña incorrecta para el usuario 'lescobar'.
+[2026-06-01T14:44:11.749Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento fallido: El usuario 'lescobadr' no existe.
+[2026-06-01T14:47:38.739Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T15:21:11.318Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T15:21:33.217Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-06-01T15:21:35.622Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-06-01T15:23:13.371Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-06-01T15:23:38.706Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T15:23:54.394Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-06-01T15:27:25.749Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'lescobar' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:27:47.309Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-01T15:27:56.532Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'undefined' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:27:58.364Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'undefined' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:28:04.743Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'undefined' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:29:26.149Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'undefined' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:29:38.895Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'lescobar' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:29:40.826Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'lescobar' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:29:44.334Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T15:29:56.571Z] [INFO-OK] [Acción: consultHeadquarters] Procedimiento FN_G_API_CONSULT_HEADQUARTERS ejecutado con éxito por GET.
+[2026-06-01T15:30:19.949Z] [RECHAZADO] [Acción: consultCurrencyRate] Acceso denegado: Token inválido o expirado.
+[2026-06-01T15:30:24.383Z] [INFO-OK] [Acción: consultCurrencyRate] Procedimiento FN_G_API_CONSULT_CURRENCY_RATE ejecutado con éxito por POST.
+[2026-06-01T15:32:55.283Z] [RECHAZADO] [Acción: AUTH_LOGIN] Contraseña incorrecta para el usuario 'lescobar'.
+[2026-06-01T15:35:09.572Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T15:36:11.587Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-01T15:36:41.588Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'undefined' intentó ejecutar acción sin el permiso requerido: [headquarters:view].
+[2026-06-01T15:41:01.620Z] [INFO-OK] [Acción: consultOrganization] Procedimiento FN_G_API_CONSULT_ORGANIZATION ejecutado con éxito por GET.
+[2026-06-01T15:52:57.248Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T15:52:58.243Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T15:53:41.234Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T15:55:31.243Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-01T16:00:02.043Z] [RECHAZADO] [Acción: LOGIN_MASTER] Intento de login sin Master Key válida.
+[2026-06-01T16:00:54.883Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento fallido: El usuario 'goku' no existe.
+[2026-06-01T16:01:03.584Z] [RECHAZADO] [Acción: AUTH_LOGIN] Contraseña incorrecta para el usuario 'lescobar'.
+[2026-06-01T16:01:07.188Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T16:03:42.592Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento fallido: El usuario 'ssdfsd' no existe.
+[2026-06-01T16:04:10.765Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T16:05:21.850Z] [RECHAZADO] [Acción: LOGIN_MASTER] Intento de login sin Master Key válida.
+[2026-06-01T16:33:02.820Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.

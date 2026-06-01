@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --variant-dark: none; /* Esto desactiva el modo oscuro por completo */
+}
