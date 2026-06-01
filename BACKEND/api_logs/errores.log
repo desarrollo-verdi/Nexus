@@ -407,3 +407,10 @@
 [2026-06-01T16:04:10.765Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
 [2026-06-01T16:05:21.850Z] [RECHAZADO] [Acción: LOGIN_MASTER] Intento de login sin Master Key válida.
 [2026-06-01T16:33:02.820Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T19:42:18.423Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' de la empresa 'ECOVERDI'.
+[2026-06-01T20:05:49.273Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'nexus'.
+[2026-06-01T20:05:59.377Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'nexus'.
+[2026-06-01T20:06:09.763Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-01T20:12:58.290Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'nexus'.
+[2026-06-01T20:13:46.210Z] [RECHAZADO] [Acción: AUTH_LOGIN] Intento de acceso denegado. Basic Auth inválido para admin: 'undefined'.
+[2026-06-01T20:25:12.312Z] [RECHAZADO] [Acción: consultHeadquarters] Usuario 'undefined' intentó ejecutar acción sin el permiso requerido.

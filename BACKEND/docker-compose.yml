@@ -9,7 +9,7 @@ services:
       - "5432:5432"
     environment:
       - POSTGRES_USER=ADMINISTRADOR
-      - POSTGRES_PASSWORD=S1hhh
+      - POSTGRES_PASSWORD=S1V2**
       - POSTGRES_DB=nexusbd
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
@@ -43,7 +43,7 @@ services:
       - "8080:80"
     environment:
       - PGADMIN_DEFAULT_EMAIL=desarrollo@appverdi.com
-      - PGADMIN_DEFAULT_PASSWORD=Shhh
+      - PGADMIN_DEFAULT_PASSWORD=S1V2**
     volumes:
       - ./pgadmin_data:/var/lib/pgadmin
     networks:
@@ -55,7 +55,7 @@ services:
       context: ../FRONTEND/nexusr # Ruta hacia donde está el Dockerfile del Front
       args:
           - VITE_API_BASE_URL=http://localhost:3000
-          - VITE_LOGIN_MASTER_KEY=Clahhhhh
+          - VITE_LOGIN_MASTER_KEY=ClaveMaestra99
     container_name: my-frontend-app
     restart: always
     ports:
