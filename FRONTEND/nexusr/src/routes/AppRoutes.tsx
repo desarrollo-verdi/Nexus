@@ -6,6 +6,14 @@ import Login from "../pages/auth/login";
 import Home from "../pages/index/home";
 import Inicio from "../components/inicio";
 
+//-------------------INTEGRAL GROUP------------------------------------------------
+
+import InventoryPartsPageIntegral from "../pages/integralGroup/inventoryparts";
+import InventoryCarPageIntegral from "../pages/integralGroup/inventorycar";
+import GeneratorTxtVehiclePageIntegral from "../pages/integralGroup/generatortxtvehicle";
+import GeneratorTxtClientPageIntegral from "../pages/integralGroup/generatortxtclient";
+import InvoiceGeneratorPageIntegral from "../pages/integralGroup/generatorinvoice";
+
 //-------------------SWING ENERGY-------------------------------------------------- 
 import DashboardPageSwing from "../pages/swingEnergy/dashboard";
 import TransactionsPageSwing from "../pages/swingEnergy/transactions";
@@ -31,6 +39,12 @@ export default function AppRoutes() {
             <Route path="/home" element={<Home />}>
               <Route index element={<Inicio />} />
               
+              {/* ROUTES INTEGRAL GROUP */}
+              <Route path="Integral-InventoryParts" element={<InventoryPartsPageIntegral/>} />
+              <Route path="Integral-InventoryCar" element={<InventoryCarPageIntegral/>} />
+              <Route path="Integral-GeneratorTxtVehicle" element={<GeneratorTxtVehiclePageIntegral/>} />
+              <Route path="Integral-GeneratorTxtClient" element={<GeneratorTxtClientPageIntegral/>}/>
+               <Route path="Integral-GeneratorInvoice" element={<InvoiceGeneratorPageIntegral/>}/>
               {/* ROUTES SWING ENERGY */}
               <Route path="Swing-Dashboard" element={<DashboardPageSwing />} />
               

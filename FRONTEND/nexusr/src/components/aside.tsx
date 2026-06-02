@@ -77,13 +77,29 @@ export default function Aside({ isOpen, onClose }: AsideProps) {
                 
                 <ul className={`${isIntegralOpen ? "block" : "hidden"} ml-4 space-y-1 border-l border-white/10 py-2`}>
                   <li>
-                    <NavLink to="/home/productos" className={subLinkStyle} onClick={onClose}>
-                      Productos
+                    <NavLink to="/home/Integral-InventoryParts" className={subLinkStyle} onClick={onClose}>
+                      Inventario de Partes
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/home/facturacion" className={subLinkStyle} onClick={onClose}>
-                      Facturación
+                    <NavLink to="/home/Integral-InventoryCar" className={subLinkStyle} onClick={onClose}>
+                      Inventario de Carros
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/home/Integral-GeneratorTxtVehicle" className={subLinkStyle} onClick={onClose}>
+                      Generador TXT Vehículos
+                    </NavLink>
+                  </li>
+                   
+                  <li>
+                    <NavLink to="/home/Integral-GeneratorTxtClient" className={subLinkStyle} onClick={onClose}>
+                      Generador TXT Clientes
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/home/Integral-GeneratorInvoice" className={subLinkStyle} onClick={onClose}>
+                      Generador de Facturas
                     </NavLink>
                   </li>
                 </ul>

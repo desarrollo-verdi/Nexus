@@ -425,3 +425,8 @@
 [2026-06-01T20:55:14.435Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'gmuria' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
 [2026-06-01T20:55:53.817Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
 [2026-06-01T21:00:03.941Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-02T07:12:20.984Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-02T13:59:13.200Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-02T14:39:46.814Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-02T14:39:46.912Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito.
+[2026-06-02T16:09:08.222Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
