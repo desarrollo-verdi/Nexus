@@ -52,7 +52,7 @@ services:
       # --- FRONTEND (REACT + VITE + NGINX) ---
   my-frontend:
     build:
-      context: ../FRONTEND/nexusr # Ruta hacia donde está el Dockerfile del Front
+      context: ../FRONTEND/nexusr 
       args:
           - VITE_API_BASE_URL=http://localhost:3000
           - VITE_LOGIN_MASTER_KEY=ClaveMaestra99

@@ -169,7 +169,7 @@ app.post('/auth/login', loginLimiter, async (req, res) => {
                 permissions: cuenta.permissions 
             }, 
             process.env.JWT_SECRET, 
-            { expiresIn: '2h', algorithm: 'HS256' }
+            { expiresIn: '8h', algorithm: 'HS256' }
         );
 
         registrarLog('OK', 'AUTH_LOGIN', `Sesión iniciada: '${username}' mediante validación Gateway Basic Auth (Empresa: '${cuenta.company_name}').`);

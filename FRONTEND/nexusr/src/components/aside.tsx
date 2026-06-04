@@ -1,20 +1,20 @@
 import { useState } from "react";
 import { NavLink } from 'react-router-dom'; 
-import { useAuth } from "../services/AuthContext"; // Ajusta esta ruta si tu AuthContext está en otra carpeta
+import { useAuth } from "../services/AuthContext"; 
 
 import { GoHome } from "react-icons/go";
 import { MdOutlineElectricCar, MdElectricRickshaw } from "react-icons/md";
 import { SlEnergy } from "react-icons/sl";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi";
 
-// Actualizamos las propiedades que va a requerir recibir desde Home.tsx
+
 interface AsideProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
 export default function Aside({ isOpen, onClose }: AsideProps) {
-  const { user } = useAuth(); // Extraemos el usuario global del JWT
+  const { user } = useAuth(); 
   const [isIntegralOpen, setIsIntegralOpen] = useState(false);
   const [isSwingOpen, setIsSwingOpen] = useState(false);
   const [isVerdiOpen, setIsVerdiOpen] = useState(false);
@@ -41,7 +41,6 @@ export default function Aside({ isOpen, onClose }: AsideProps) {
   return (
     <aside
       id="sidebar"
-      /* 🪄 Evaluamos la propiedad isOpen para aplicar las clases de desplazamiento en móvil */
       className={`fixed left-0 top-0 z-20 flex h-full w-64 flex-col flex-shrink-0 pt-16 transition-transform duration-300 ${
         isOpen ? "translate-x-0" : "-translate-x-full"
       } lg:translate-x-0 lg:flex`}

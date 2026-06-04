@@ -47,9 +47,10 @@ export default function AppRoutes() {
                <Route path="Integral-GeneratorInvoice" element={<InvoiceGeneratorPageIntegral/>}/>
               {/* ROUTES SWING ENERGY */}
               <Route path="Swing-Dashboard" element={<DashboardPageSwing />} />
+              <Route path="Swing-Transactions" element={<TransactionsPageSwing />} />
               
               <Route element={<ProtectedRoute requiredPermission="transactions:view" />}>
-                <Route path="Swing-Transactions" element={<TransactionsPageSwing />} />
+                
               </Route>
 
               {/* ROUTES VERDI */}
