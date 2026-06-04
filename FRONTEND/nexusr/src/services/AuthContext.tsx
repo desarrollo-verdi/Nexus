@@ -25,8 +25,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Recuperar la sesión del usuario real si existe al recargar la página
-    const savedToken = localStorage.getItem("user_token");
+    // 🟢 CORRECCIÓN: Leemos "nexus_token" para ir a la par con el interceptor de Axios
+    const savedToken = localStorage.getItem("nexus_token");
     const savedUser = localStorage.getItem("user_data");
 
     if (savedToken && savedUser) {
@@ -39,14 +39,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const login = (newToken: string, userData: User) => {
     setToken(newToken);
     setUser(userData);
-    localStorage.setItem("user_token", newToken);
+    
+    // 🟢 CORRECCIÓN: Guardamos usando "nexus_token" de forma síncrona inmediata
+    localStorage.setItem("nexus_token", newToken);
     localStorage.setItem("user_data", JSON.stringify(userData));
   };
 
   const logout = () => {
     setToken(null);
     setUser(null);
-    localStorage.removeItem("user_token");
+    
+    // 🟢 CORRECCIÓN: Limpiamos la llave correcta al cerrar sesión
+    localStorage.removeItem("nexus_token");
     localStorage.removeItem("user_data");
   };
 

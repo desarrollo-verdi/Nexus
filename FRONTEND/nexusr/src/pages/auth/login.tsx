@@ -29,8 +29,8 @@ export default function Login() {
 
     try {
       const response = await api.post("/auth/login", {
-        username,
-        password
+        username: username.trim(),
+        password: password.trim()
       });
 
       if (response.data.success) {

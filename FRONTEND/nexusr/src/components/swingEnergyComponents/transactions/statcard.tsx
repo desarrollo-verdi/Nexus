@@ -13,13 +13,15 @@ interface StatCardProps {
 
 export default function StatCard({
   title,
+  textColor,
   description,
   value,
   unit,
   period,
   icon,
   borderColor,
-  bgColor,
+  bgColor
+  
 }: StatCardProps) {
   return (
     <div
@@ -27,7 +29,7 @@ export default function StatCard({
     >
       <div className="flex items-center justify-between mb-2">
         <div className={`p-2 rounded-lg ${bgColor}`}>{icon}</div>
-        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-tight">
+        <span className={`text-[10px] font-bold uppercase tracking-tight ${textColor}`}>
           {period}
         </span>
       </div>
