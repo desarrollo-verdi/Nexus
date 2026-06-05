@@ -1265,3 +1265,8 @@
 [2026-06-05T18:05:14.711Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
 [2026-06-05T18:07:56.636Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
 [2026-06-05T18:08:07.525Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-05T18:12:34.409Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-05T18:12:34.412Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-05T18:12:34.415Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-05T18:12:34.421Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T18:12:34.424Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
