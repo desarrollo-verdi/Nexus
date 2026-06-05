@@ -6,8 +6,6 @@ import { Search } from "lucide-react";
 import "datatables.net-buttons-dt";
 import "datatables.net-buttons/js/buttons.html5.mjs";
 import JSZip from "jszip";
-
-// 🚀 1. IMPORTAMOS LA EXTENSIÓN RESPONSIVE
 import "datatables.net-responsive-dt";
 
 if (typeof window !== "undefined") {

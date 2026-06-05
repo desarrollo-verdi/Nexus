@@ -31,7 +31,6 @@ export default function MonthlyChart() {
     const fetchMonthlyData = async () => {
       setIsLoading(true);
       try {
-        console.log("📊 Consultando consumos de /consultTotalMonthlyTransactions");
         // Cambiado a .get según especificaste en tu ruta
         const response = await api.get("/consultTotalMonthlyTransactions");
         
