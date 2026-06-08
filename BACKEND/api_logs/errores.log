@@ -1270,3 +1270,90 @@
 [2026-06-05T18:12:34.415Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
 [2026-06-05T18:12:34.421Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
 [2026-06-05T18:12:34.424Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T18:23:27.790Z] [RECHAZADO] [Acción: consultLoadControl] Acceso denegado: Token inválido o expirado.
+[2026-06-05T18:23:49.862Z] [INFO-OK] [Acción: consultLoadControl] Procedimiento FN_V_API_CONSULT_LOAD_CONTROL ejecutado con éxito.
+[2026-06-05T18:24:25.787Z] [RECHAZADO] [Acción: consultDriver] Acceso denegado: Token inválido o expirado.
+[2026-06-05T18:24:32.995Z] [INFO-OK] [Acción: consultDriver] Procedimiento FN_V_API_CONSULT_DRIVER ejecutado con éxito.
+[2026-06-05T18:25:18.615Z] [RECHAZADO] [Acción: consultUnit] Acceso denegado: Token inválido o expirado.
+[2026-06-05T18:25:26.740Z] [INFO-OK] [Acción: consultUnit] Procedimiento FN_V_API_CONSULT_UNIT ejecutado con éxito.
+[2026-06-05T19:48:47.640Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T19:48:47.646Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-05T19:48:47.649Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-05T19:48:47.651Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-05T19:48:47.654Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T20:02:39.372Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-05T20:02:39.375Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-05T20:02:39.377Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-05T20:02:39.379Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T20:02:39.381Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T20:03:43.088Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-05T20:03:43.090Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-05T20:03:43.092Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-05T20:03:43.094Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T20:03:43.096Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T21:45:09.510Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-05T21:45:09.512Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-05T21:45:09.514Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-05T21:45:09.516Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T21:45:09.518Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T22:14:36.364Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-05T22:14:51.991Z] [INFO-OK] [Acción: consultTotalMonthlyTransactions] Procedimiento FN_S_API_CONSULT_TOTAL_MONTHLY_TRANSACTIONS ejecutado con éxito.
+[2026-06-05T22:14:51.993Z] [INFO-OK] [Acción: consultSummaryTransaction] Procedimiento FN_S_API_CONSULT_SUMMARY_TRANSACTIONS ejecutado con éxito.
+[2026-06-05T22:14:52.005Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito.
+[2026-06-05T22:14:58.329Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T22:14:58.332Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-05T22:14:58.334Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-05T22:14:58.360Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-05T22:14:58.365Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-05T22:15:03.263Z] [INFO-OK] [Acción: consultSummaryTransaction] Procedimiento FN_S_API_CONSULT_SUMMARY_TRANSACTIONS ejecutado con éxito.
+[2026-06-05T22:15:03.265Z] [INFO-OK] [Acción: consultTotalMonthlyTransactions] Procedimiento FN_S_API_CONSULT_TOTAL_MONTHLY_TRANSACTIONS ejecutado con éxito.
+[2026-06-05T22:15:03.270Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito.
+[2026-06-08T13:36:29.537Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-08T13:36:29.579Z] [ERROR] [Acción: consultCurrencyRate] the database system is starting up
+[2026-06-08T13:36:29.601Z] [ERROR] [Acción: insertCurrencyRate] the database system is starting up
+[2026-06-08T13:36:53.729Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-08T13:36:53.746Z] [ERROR] [Acción: consultCurrencyRate] the database system is starting up
+[2026-06-08T13:36:53.762Z] [ERROR] [Acción: insertCurrencyRate] the database system is starting up
+[2026-06-08T13:37:09.745Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-08T13:37:09.758Z] [ERROR] [Acción: consultCurrencyRate] the database system is starting up
+[2026-06-08T13:37:09.773Z] [ERROR] [Acción: insertCurrencyRate] the database system is starting up
+[2026-06-08T13:38:12.073Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-08T13:38:12.092Z] [ERROR] [Acción: consultCurrencyRate] the database system is starting up
+[2026-06-08T13:38:12.109Z] [ERROR] [Acción: insertCurrencyRate] the database system is starting up
+[2026-06-08T13:38:33.466Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-08T13:38:38.000Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-08T13:38:55.691Z] [RECHAZADO] [Acción: consultTransactionsSW] Acceso denegado: Token inválido o expirado.
+[2026-06-08T13:39:18.940Z] [ERROR] [Acción: consultTransactionsSW] the database system is starting up
+[2026-06-08T13:40:30.745Z] [ERROR] [Acción: consultSummaryTransaction] connect ECONNREFUSED 172.20.0.3:5432
+[2026-06-08T13:46:41.138Z] [ERROR] [Acción: consultSummaryTransaction] the database system is starting up
+[2026-06-08T13:46:43.236Z] [ERROR] [Acción: consultSummaryTransaction] the database system is starting up
+[2026-06-08T13:56:02.892Z] [ERROR] [Acción: consultSummaryTransaction] connect ECONNREFUSED 172.20.0.2:5432
+[2026-06-08T14:13:40.397Z] [OK] [Acción: LOGIN_MASTER] Usuario M-Key 'nexus' autenticado exitosamente.
+[2026-06-08T14:13:40.560Z] [INFO-OK] [Acción: consultCurrencyRate] Procedimiento FN_G_API_CONSULT_CURRENCY_RATE ejecutado con éxito.
+[2026-06-08T14:13:40.593Z] [INFO-OK] [Acción: insertCurrencyRate] Procedimiento FN_G_API_INSERT_CURRENCY_RATE ejecutado con éxito.
+[2026-06-08T14:41:05.510Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-08T14:41:13.434Z] [INFO-OK] [Acción: consultTransactionsSW] Procedimiento FN_S_API_CONSULT_TRANSACTIONS ejecutado con éxito.
+[2026-06-08T14:41:13.452Z] [INFO-OK] [Acción: consultTotalMonthlyTransactions] Procedimiento FN_S_API_CONSULT_TOTAL_MONTHLY_TRANSACTIONS ejecutado con éxito.
+[2026-06-08T14:41:13.458Z] [INFO-OK] [Acción: consultSummaryTransaction] Procedimiento FN_S_API_CONSULT_SUMMARY_TRANSACTIONS ejecutado con éxito.
+[2026-06-08T14:41:24.265Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-08T14:41:24.270Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-08T14:41:24.277Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-08T14:41:24.284Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-08T14:41:24.290Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-08T14:55:28.911Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-08T15:02:18.741Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-08T15:02:18.747Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-08T15:02:18.751Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-08T15:02:18.755Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-08T15:02:18.759Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-08T15:24:19.440Z] [INFO-OK] [Acción: consultDistributionOfOrganization] Procedimiento FN_S_API_CONSULT_DISTRIBUTION_OF_ORGANIZATIONS ejecutado con éxito.
+[2026-06-08T15:24:19.450Z] [INFO-OK] [Acción: consultTop10Customers] Procedimiento FN_S_API_CONSULT_TOP_10_CUSTOMERS ejecutado con éxito.
+[2026-06-08T15:24:19.455Z] [INFO-OK] [Acción: consultEarningsSW] Procedimiento FN_S_API_CONSULT_EARNINGS ejecutado con éxito.
+[2026-06-08T15:24:19.460Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-08T15:24:19.466Z] [INFO-OK] [Acción: consultTop3Chargers] Procedimiento FN_S_API_CONSULT_TOP3_AC_DC_BY_ORG ejecutado con éxito.
+[2026-06-08T15:57:42.540Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-08T15:59:11.114Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-08T16:00:06.548Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
+[2026-06-08T16:05:02.813Z] [RECHAZADO] [Acción: AUTH_LOGIN] Petición rechazada: Falta Basic Auth administrativo.
+[2026-06-08T16:05:05.452Z] [RECHAZADO] [Acción: AUTH_LOGIN] Petición rechazada: Falta Basic Auth administrativo.
+[2026-06-08T16:09:12.535Z] [OK] [Acción: AUTH_LOGIN] Sesión iniciada: 'lescobar' mediante validación Gateway Basic Auth (Empresa: 'ECOVERDI').
