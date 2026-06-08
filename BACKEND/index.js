@@ -178,8 +178,10 @@ app.post('/auth/login', loginLimiter, async (req, res) => {
             success: true,
             token: token,
             user: {
+                user_id: cuenta.user_id,
                 name: cuenta.full_name,
                 username: cuenta.username,
+                id_role: cuenta.id_role,
                 role: cuenta.role_name,
                 company: cuenta.company_name,
                 permissions: cuenta.permissions
