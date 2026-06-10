@@ -15,7 +15,6 @@ services:
       - ./postgres_data:/var/lib/postgresql/data
     networks:
       - verdi-net
-
       # --- BACKEND (EXPRESS) ---
   my-api:
     build: .
@@ -31,7 +30,6 @@ services:
       - ./api_logs:/usr/src/app/logs
     networks:
       - verdi-net
-
   # ------ ADMINISTRACIÓN BD ---------
   pgadmin:
     image: dpage/pgadmin4

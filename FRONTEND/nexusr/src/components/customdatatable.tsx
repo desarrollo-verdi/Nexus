@@ -27,6 +27,7 @@ interface CustomDataTableProps<T> {
   }>;
   pageSize?: number;
   excelFileName?: string;
+  targetColor ?: string;
 }
 
 export default function CustomDataTable<T>({
@@ -36,6 +37,7 @@ export default function CustomDataTable<T>({
   columns,
   pageSize = 10,
   excelFileName = "reporte-descarga",
+  targetColor ,
 }: CustomDataTableProps<T>) {
   const [searchQuery, setSearchQuery] = useState("");
   const tableRef = useRef<any>(null);
@@ -51,7 +53,7 @@ export default function CustomDataTable<T>({
     <div className="bg-white border border-slate-200 rounded-3xl shadow-sm overflow-hidden animate-fade-in-up">
       
       {/* Encabezado Verde Estilo Banner */}
-      <div className="bg-[#005f43] px-6 py-4 flex items-center justify-between">
+      <div className={`${targetColor || "bg-emerald-900"} px-6 py-4 flex items-center justify-between`}>
         <h3 className="text-white font-bold flex items-center gap-2 text-sm tracking-wide">
           {Icon && <Icon className="w-5 h-5 text-white/90" />} {title}
         </h3>
@@ -86,8 +88,8 @@ export default function CustomDataTable<T>({
             <div className="dt-buttons-target-container flex justify-end"></div>
           </div>
 
-          {/* Tabla de datos */}
-          <div className="w-full overflow-x-auto">
+          {/* Contenedor con borde, redondeado y overflow-hidden para la tabla */}
+          <div className="w-full overflow-x-auto border border-slate-50 rounded-xl overflow-hidden">
             <DataTable
               ref={tableRef}
               data={data}
@@ -96,10 +98,7 @@ export default function CustomDataTable<T>({
                 pageLength: pageSize,
                 lengthMenu: [5, 10, 25, 50],
                 dom: 'Brt<"flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mt-5 text-slate-600 text-sm"ip>',
-                
-                // 🚀 2. ACTIVAMOS EL MODO RESPONSIVO AQUÍ
                 responsive: true, 
-
                 buttons: [
                   {
                     extend: "copy",
@@ -135,7 +134,7 @@ export default function CustomDataTable<T>({
                   }
                 }
               }}
-              className="w-full text-sm border-collapse"
+              className="w-full text-sm display no-footer"
             />
           </div>
 

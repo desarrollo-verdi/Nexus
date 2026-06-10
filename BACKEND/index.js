@@ -56,7 +56,7 @@ const pool = new Pool({
 
 const generalLimiter = rateLimit({
     windowMs: 15 * 60 * 1000, 
-    max: 100, 
+    max: 300, 
     message: { error: "Demasiadas peticiones. Intente más tarde." }
 });
 app.use(generalLimiter);
@@ -183,6 +183,7 @@ app.post('/auth/login', loginLimiter, async (req, res) => {
                 username: cuenta.username,
                 id_role: cuenta.id_role,
                 role: cuenta.role_name,
+                id_headquarters: cuenta.id_headquarters,
                 company: cuenta.company_name,
                 permissions: cuenta.permissions
             }

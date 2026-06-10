@@ -25,8 +25,8 @@
 
 /* 1️⃣ Forzar estilos limpios en los encabezados (th) */
 .dt-tailwind-wrapper table thead th {
-  background-color: #a6c0b6 !important; /* bg-slate-50 sutil */
-  color: #1e293b !important;            /* text-slate-800 */
+  background-color: #0a4b33 !important; /* bg-slate-50 sutil */
+  color: #ffffff !important;            /* text-slate-800 */
   font-size: 12px !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
